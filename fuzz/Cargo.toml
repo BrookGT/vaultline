@@ -1,0 +1,54 @@
+[package]
+name = "vaultline-fuzz"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+vaultline-core = { path = "../vaultline-core" }
+
+[[bin]]
+name = "ledger_fuzzer"
+path = "fuzz_targets/ledger_fuzzer.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "record_fuzzer"
+path = "fuzz_targets/record_fuzzer.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "seal_fuzzer"
+path = "fuzz_targets/seal_fuzzer.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "decode_fuzzer"
+path = "fuzz_targets/decode_fuzzer.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "validate_fuzzer"
+path = "fuzz_targets/validate_fuzzer.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "pipeline_fuzzer"
+path = "fuzz_targets/pipeline_fuzzer.rs"
+test = false
+doc = false
+bench = false

@@ -1,0 +1,12 @@
+language: rust
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+fuzz_targets:
+  - ledger_fuzzer
+  - record_fuzzer
+  - seal_fuzzer
+  - decode_fuzzer
+  - validate_fuzzer
+  - pipeline_fuzzer

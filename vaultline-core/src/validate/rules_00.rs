@@ -1,0 +1,316 @@
+//! Validation rule descriptors batch 0.
+
+#[derive(Debug, Clone, Copy)]
+pub struct RuleDesc {
+    pub id: u32,
+    pub name: &'static str,
+    pub severity: u8,
+    pub applies_to: u8,
+}
+
+pub const RULES_0: &[RuleDesc] = &[
+    RuleDesc {
+        id: 0,
+        name: "rule-00-00",
+        severity: 1,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 1,
+        name: "rule-00-01",
+        severity: 2,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 2,
+        name: "rule-00-02",
+        severity: 3,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 3,
+        name: "rule-00-03",
+        severity: 4,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 4,
+        name: "rule-00-04",
+        severity: 5,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 5,
+        name: "rule-00-05",
+        severity: 1,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 6,
+        name: "rule-00-06",
+        severity: 2,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 7,
+        name: "rule-00-07",
+        severity: 3,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 8,
+        name: "rule-00-08",
+        severity: 4,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 9,
+        name: "rule-00-09",
+        severity: 5,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 10,
+        name: "rule-00-10",
+        severity: 1,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 11,
+        name: "rule-00-11",
+        severity: 2,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 12,
+        name: "rule-00-12",
+        severity: 3,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 13,
+        name: "rule-00-13",
+        severity: 4,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 14,
+        name: "rule-00-14",
+        severity: 5,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 15,
+        name: "rule-00-15",
+        severity: 1,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 16,
+        name: "rule-00-16",
+        severity: 2,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 17,
+        name: "rule-00-17",
+        severity: 3,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 18,
+        name: "rule-00-18",
+        severity: 4,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 19,
+        name: "rule-00-19",
+        severity: 5,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 20,
+        name: "rule-00-20",
+        severity: 1,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 21,
+        name: "rule-00-21",
+        severity: 2,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 22,
+        name: "rule-00-22",
+        severity: 3,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 23,
+        name: "rule-00-23",
+        severity: 4,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 24,
+        name: "rule-00-24",
+        severity: 5,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 25,
+        name: "rule-00-25",
+        severity: 1,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 26,
+        name: "rule-00-26",
+        severity: 2,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 27,
+        name: "rule-00-27",
+        severity: 3,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 28,
+        name: "rule-00-28",
+        severity: 4,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 29,
+        name: "rule-00-29",
+        severity: 5,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 30,
+        name: "rule-00-30",
+        severity: 1,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 31,
+        name: "rule-00-31",
+        severity: 2,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 32,
+        name: "rule-00-32",
+        severity: 3,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 33,
+        name: "rule-00-33",
+        severity: 4,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 34,
+        name: "rule-00-34",
+        severity: 5,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 35,
+        name: "rule-00-35",
+        severity: 1,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 36,
+        name: "rule-00-36",
+        severity: 2,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 37,
+        name: "rule-00-37",
+        severity: 3,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 38,
+        name: "rule-00-38",
+        severity: 4,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 39,
+        name: "rule-00-39",
+        severity: 5,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 40,
+        name: "rule-00-40",
+        severity: 1,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 41,
+        name: "rule-00-41",
+        severity: 2,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 42,
+        name: "rule-00-42",
+        severity: 3,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 43,
+        name: "rule-00-43",
+        severity: 4,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 44,
+        name: "rule-00-44",
+        severity: 5,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 45,
+        name: "rule-00-45",
+        severity: 1,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 46,
+        name: "rule-00-46",
+        severity: 2,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 47,
+        name: "rule-00-47",
+        severity: 3,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 48,
+        name: "rule-00-48",
+        severity: 4,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 49,
+        name: "rule-00-49",
+        severity: 5,
+        applies_to: 1,
+    },
+];
+
+pub fn lookup_rule_0(id: u32) -> Option<&'static RuleDesc> {
+    RULES_0.iter().find(|r| r.id == id)
+}

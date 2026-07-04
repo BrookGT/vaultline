@@ -1,0 +1,316 @@
+//! Validation rule descriptors batch 11.
+
+#[derive(Debug, Clone, Copy)]
+pub struct RuleDesc {
+    pub id: u32,
+    pub name: &'static str,
+    pub severity: u8,
+    pub applies_to: u8,
+}
+
+pub const RULES_11: &[RuleDesc] = &[
+    RuleDesc {
+        id: 440,
+        name: "rule-11-00",
+        severity: 1,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 441,
+        name: "rule-11-01",
+        severity: 2,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 442,
+        name: "rule-11-02",
+        severity: 3,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 443,
+        name: "rule-11-03",
+        severity: 4,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 444,
+        name: "rule-11-04",
+        severity: 5,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 445,
+        name: "rule-11-05",
+        severity: 1,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 446,
+        name: "rule-11-06",
+        severity: 2,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 447,
+        name: "rule-11-07",
+        severity: 3,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 448,
+        name: "rule-11-08",
+        severity: 4,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 449,
+        name: "rule-11-09",
+        severity: 5,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 450,
+        name: "rule-11-10",
+        severity: 1,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 451,
+        name: "rule-11-11",
+        severity: 2,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 452,
+        name: "rule-11-12",
+        severity: 3,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 453,
+        name: "rule-11-13",
+        severity: 4,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 454,
+        name: "rule-11-14",
+        severity: 5,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 455,
+        name: "rule-11-15",
+        severity: 1,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 456,
+        name: "rule-11-16",
+        severity: 2,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 457,
+        name: "rule-11-17",
+        severity: 3,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 458,
+        name: "rule-11-18",
+        severity: 4,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 459,
+        name: "rule-11-19",
+        severity: 5,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 460,
+        name: "rule-11-20",
+        severity: 1,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 461,
+        name: "rule-11-21",
+        severity: 2,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 462,
+        name: "rule-11-22",
+        severity: 3,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 463,
+        name: "rule-11-23",
+        severity: 4,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 464,
+        name: "rule-11-24",
+        severity: 5,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 465,
+        name: "rule-11-25",
+        severity: 1,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 466,
+        name: "rule-11-26",
+        severity: 2,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 467,
+        name: "rule-11-27",
+        severity: 3,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 468,
+        name: "rule-11-28",
+        severity: 4,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 469,
+        name: "rule-11-29",
+        severity: 5,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 470,
+        name: "rule-11-30",
+        severity: 1,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 471,
+        name: "rule-11-31",
+        severity: 2,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 472,
+        name: "rule-11-32",
+        severity: 3,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 473,
+        name: "rule-11-33",
+        severity: 4,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 474,
+        name: "rule-11-34",
+        severity: 5,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 475,
+        name: "rule-11-35",
+        severity: 1,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 476,
+        name: "rule-11-36",
+        severity: 2,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 477,
+        name: "rule-11-37",
+        severity: 3,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 478,
+        name: "rule-11-38",
+        severity: 4,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 479,
+        name: "rule-11-39",
+        severity: 5,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 480,
+        name: "rule-11-40",
+        severity: 1,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 481,
+        name: "rule-11-41",
+        severity: 2,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 482,
+        name: "rule-11-42",
+        severity: 3,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 483,
+        name: "rule-11-43",
+        severity: 4,
+        applies_to: 3,
+    },
+    RuleDesc {
+        id: 484,
+        name: "rule-11-44",
+        severity: 5,
+        applies_to: 4,
+    },
+    RuleDesc {
+        id: 485,
+        name: "rule-11-45",
+        severity: 1,
+        applies_to: 5,
+    },
+    RuleDesc {
+        id: 486,
+        name: "rule-11-46",
+        severity: 2,
+        applies_to: 0,
+    },
+    RuleDesc {
+        id: 487,
+        name: "rule-11-47",
+        severity: 3,
+        applies_to: 1,
+    },
+    RuleDesc {
+        id: 488,
+        name: "rule-11-48",
+        severity: 4,
+        applies_to: 2,
+    },
+    RuleDesc {
+        id: 489,
+        name: "rule-11-49",
+        severity: 5,
+        applies_to: 3,
+    },
+];
+
+pub fn lookup_rule_11(id: u32) -> Option<&'static RuleDesc> {
+    RULES_11.iter().find(|r| r.id == id)
+}
